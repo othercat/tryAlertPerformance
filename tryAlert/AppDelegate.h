@@ -19,6 +19,7 @@ typedef enum {
     IBOutlet NSWindow *window;
     IBOutlet NSButton *btnTryNSRunAlertPanel;
     IBOutlet NSButton *btnTryNSAlert;
+    IBOutlet NSButton *btnTryNSAlertNotification;
     int count;
 }
 
@@ -26,6 +27,7 @@ typedef enum {
 
 -(IBAction)pressBtnTryNSRunAlertPanel:(id)sender;
 -(IBAction)pressBtnTryNSAlert:(id)sender;
+-(IBAction)pressBtnTryNSAlertNotification:(id)sender;
 
 -(void)tryRunLoop:(id) anObject;
 -(void)showAlert:(id) anObject;

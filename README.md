@@ -1,6 +1,18 @@
 tryAlertPerformance
 ==============
 
+Histroy
+-------------
+version 0.1.0: 
+
+* add 3rd button to send Nofitication message
+* send notification message by the end of thread
+	 
+version 0.0.1:
+
+* initial commit
+
+
 Purpose
 -------------
 Figure out the differenct phenomenons between `NSRunAlertPanel` and `NSAlert` while we are implementing a alert window using Cocoa.
